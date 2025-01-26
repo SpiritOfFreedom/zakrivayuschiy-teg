@@ -151,12 +151,19 @@
 }
 
 .card__icon-button {
-  border: none;
   background-color: transparent;
   cursor: pointer;
   border: 2px solid transparent;
   height: 42.8px;
   transition: border 0.3s ease;
+  .core {
+    transition: fill .3s linear .03s;
+    fill: var(--bg-color);
+  }
+  .main-body {
+    fill: var(--bg-color);
+    transition: fill .3s linear;
+  }
 }
 
 .card__icon-button:focus {
@@ -242,17 +249,6 @@
 
 .sparks {
   opacity: 0;
-}
-
-.card__icon-button {
-  .core {
-    transition: fill .3s linear .03s;
-    fill: var(--bg-color);
-  }
-  .main-body {
-    fill: var(--bg-color);
-    transition: fill .3s linear;
-  }
 }
 
 .card__icon-button:hover {
