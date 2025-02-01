@@ -1,1 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter-Variable';
+    --accent-font: 'Pressstart2P';
+    --weight-text: 400;
+    --weight-title: 700;
+    --bg-color: #FFFFFF;
+    --accent-color: #000000;
+    --bg-image: url(../svg/pattern-light.svg);
+    --heart-contour: #000000;
+    --heart-fill: #FF0000;
+    --bg-grad: repeating-linear-gradient(#d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px)
+            ,repeating-linear-gradient(90deg, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px)
+            ,linear-gradient(#e7e7e7 0.01%,#1a1a1a);
+     --button-color: var(--bg-color);
+}
