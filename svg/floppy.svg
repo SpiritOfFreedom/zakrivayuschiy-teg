@@ -1,5 +1,5 @@
 <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-<symbol id="floppy" stroke="currentColor" fill="currentColor" width="28" height="28" viewBox="0 0 28 28">
+<symbol id="floppy" stroke="currentColor" fill="currentColor">
 <rect x="0.5" width="2.15385" height="2.15385" fill="currentColor"/>
 <rect x="0.5" y="2.15396" width="2.15385" height="2.15385" fill="currentColor"/>
 <rect x="0.5" y="4.30762" width="2.15385" height="2.15385" fill="currentColor"/>
