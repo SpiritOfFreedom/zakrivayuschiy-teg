@@ -30,3 +30,18 @@
     ,linear-gradient(#e7e7e7 0.01%,#1a1a1a);
     --button-color: var(--bg-color);
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --weight-text: 485;
+        --weight-title: 785;
+        --bg-color: #000000;
+        --accent-color: #00CC14;
+        --bg-image: url(../svg/pattern-dark.svg);
+        --heart-contour: #FFFFFF;
+        --bg-grad: repeating-linear-gradient(#000 0, #000 2px, transparent 2px, transparent 4px)
+        ,repeating-linear-gradient(90deg, #000 0, #000 2px, transparent 2px, transparent 4px)
+        ,linear-gradient(#007f0c,#004306);
+        --button-color: var(--accent-color);
+    }
+}
